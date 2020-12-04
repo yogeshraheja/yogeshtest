@@ -1,0 +1,7 @@
+---
+- name: Docker setup role
+  hosts: localhost
+  connection: local
+
+  roles:
+    - yogeshraheja.docker-test
